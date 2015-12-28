@@ -1,7 +1,7 @@
 iOS-Dizainier-Swift
 ===================
 
-Dizainier is a simple application to start the developpemt under the platforms iOS (Swift)
+Dizainier is a simple application to start the developpemt under the platforms iOS (Swift) that allows to show number in mode "hexadecimal" or "decimal".
 
 ###### Keywords
 iOS, iPhone, iPod, iPad, UIButton, UISegmentedControl, UISlider, UIStepper.
