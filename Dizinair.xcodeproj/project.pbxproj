@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6EB966E19E8027B0008D9DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EB966D19E8027B0008D9DD /* AppDelegate.swift */; };
+		D6EB967019E8027B0008D9DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EB966F19E8027B0008D9DD /* ViewController.swift */; };
+		D6EB967319E8027B0008D9DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6EB967119E8027B0008D9DD /* Main.storyboard */; };
+		D6EB967519E8027B0008D9DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6EB967419E8027B0008D9DD /* Images.xcassets */; };
+		D6EB967819E8027B0008D9DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6EB967619E8027B0008D9DD /* LaunchScreen.xib */; };
+		D6EB968419E8027B0008D9DD /* DizinairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EB968319E8027B0008D9DD /* DizinairTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6EB967E19E8027B0008D9DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6EB966019E8027B0008D9DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6EB966719E8027B0008D9DD;
+			remoteInfo = Dizinair;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6EB966819E8027B0008D9DD /* Dizinair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dizinair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EB966C19E8027B0008D9DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6EB966D19E8027B0008D9DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6EB966F19E8027B0008D9DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6EB967219E8027B0008D9DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6EB967419E8027B0008D9DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D6EB967719E8027B0008D9DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D6EB967D19E8027B0008D9DD /* DizinairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DizinairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6EB968219E8027B0008D9DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6EB968319E8027B0008D9DD /* DizinairTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DizinairTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6EB966519E8027B0008D9DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EB967A19E8027B0008D9DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6EB965F19E8027B0008D9DD = {
+			isa = PBXGroup;
+			children = (
+				D6EB966A19E8027B0008D9DD /* Dizinair */,
+				D6EB968019E8027B0008D9DD /* DizinairTests */,
+				D6EB966919E8027B0008D9DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6EB966919E8027B0008D9DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6EB966819E8027B0008D9DD /* Dizinair.app */,
+				D6EB967D19E8027B0008D9DD /* DizinairTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6EB966A19E8027B0008D9DD /* Dizinair */ = {
+			isa = PBXGroup;
+			children = (
+				D6EB966D19E8027B0008D9DD /* AppDelegate.swift */,
+				D6EB966F19E8027B0008D9DD /* ViewController.swift */,
+				D6EB967119E8027B0008D9DD /* Main.storyboard */,
+				D6EB967419E8027B0008D9DD /* Images.xcassets */,
+				D6EB967619E8027B0008D9DD /* LaunchScreen.xib */,
+				D6EB966B19E8027B0008D9DD /* Supporting Files */,
+			);
+			path = Dizinair;
+			sourceTree = "<group>";
+		};
+		D6EB966B19E8027B0008D9DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6EB966C19E8027B0008D9DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6EB968019E8027B0008D9DD /* DizinairTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6EB968319E8027B0008D9DD /* DizinairTests.swift */,
+				D6EB968119E8027B0008D9DD /* Supporting Files */,
+			);
+			path = DizinairTests;
+			sourceTree = "<group>";
+		};
+		D6EB968119E8027B0008D9DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6EB968219E8027B0008D9DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6EB966719E8027B0008D9DD /* Dizinair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6EB968719E8027B0008D9DD /* Build configuration list for PBXNativeTarget "Dizinair" */;
+			buildPhases = (
+				D6EB966419E8027B0008D9DD /* Sources */,
+				D6EB966519E8027B0008D9DD /* Frameworks */,
+				D6EB966619E8027B0008D9DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dizinair;
+			productName = Dizinair;
+			productReference = D6EB966819E8027B0008D9DD /* Dizinair.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6EB967C19E8027B0008D9DD /* DizinairTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6EB968A19E8027B0008D9DD /* Build configuration list for PBXNativeTarget "DizinairTests" */;
+			buildPhases = (
+				D6EB967919E8027B0008D9DD /* Sources */,
+				D6EB967A19E8027B0008D9DD /* Frameworks */,
+				D6EB967B19E8027B0008D9DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6EB967F19E8027B0008D9DD /* PBXTargetDependency */,
+			);
+			name = DizinairTests;
+			productName = DizinairTests;
+			productReference = D6EB967D19E8027B0008D9DD /* DizinairTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6EB966019E8027B0008D9DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = m2sar;
+				TargetAttributes = {
+					D6EB966719E8027B0008D9DD = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = MRV7A6DFL3;
+					};
+					D6EB967C19E8027B0008D9DD = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D6EB966719E8027B0008D9DD;
+					};
+				};
+			};
+			buildConfigurationList = D6EB966319E8027B0008D9DD /* Build configuration list for PBXProject "Dizinair" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6EB965F19E8027B0008D9DD;
+			productRefGroup = D6EB966919E8027B0008D9DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6EB966719E8027B0008D9DD /* Dizinair */,
+				D6EB967C19E8027B0008D9DD /* DizinairTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6EB966619E8027B0008D9DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EB967319E8027B0008D9DD /* Main.storyboard in Resources */,
+				D6EB967819E8027B0008D9DD /* LaunchScreen.xib in Resources */,
+				D6EB967519E8027B0008D9DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EB967B19E8027B0008D9DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6EB966419E8027B0008D9DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EB967019E8027B0008D9DD /* ViewController.swift in Sources */,
+				D6EB966E19E8027B0008D9DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6EB967919E8027B0008D9DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EB968419E8027B0008D9DD /* DizinairTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6EB967F19E8027B0008D9DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6EB966719E8027B0008D9DD /* Dizinair */;
+			targetProxy = D6EB967E19E8027B0008D9DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6EB967119E8027B0008D9DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6EB967219E8027B0008D9DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6EB967619E8027B0008D9DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6EB967719E8027B0008D9DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6EB968519E8027B0008D9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6EB968619E8027B0008D9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6EB968819E8027B0008D9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Dizinair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sadaoui.com.Dizinair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6EB968919E8027B0008D9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Dizinair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sadaoui.com.Dizinair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6EB968B19E8027B0008D9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DizinairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dizinair.app/Dizinair";
+			};
+			name = Debug;
+		};
+		D6EB968C19E8027B0008D9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DizinairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dizinair.app/Dizinair";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6EB966319E8027B0008D9DD /* Build configuration list for PBXProject "Dizinair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EB968519E8027B0008D9DD /* Debug */,
+				D6EB968619E8027B0008D9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6EB968719E8027B0008D9DD /* Build configuration list for PBXNativeTarget "Dizinair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EB968819E8027B0008D9DD /* Debug */,
+				D6EB968919E8027B0008D9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6EB968A19E8027B0008D9DD /* Build configuration list for PBXNativeTarget "DizinairTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EB968B19E8027B0008D9DD /* Debug */,
+				D6EB968C19E8027B0008D9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6EB966019E8027B0008D9DD /* Project object */;
+}

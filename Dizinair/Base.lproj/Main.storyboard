@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dizinair" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="99" translatesAutoresizingMaskIntoConstraints="NO" id="dve-iT-BSz">
+                                <rect key="frame" x="16" y="28" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stepperHGAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="lV8-JX-2sC"/>
+                                </connections>
+                            </stepper>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KLu-J1-StZ">
+                                <rect key="frame" x="535" y="28" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchHDAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="aRB-Xb-AKr"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dizaines" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXc-ub-VGd">
+                                <rect key="frame" x="16" y="65" width="65" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="rdH-3R-vm2">
+                                <rect key="frame" x="16" y="94" width="568" height="29"/>
+                                <segments>
+                                    <segment title="0"/>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segcrtlDizAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="IUe-Ab-DHJ"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1OT-dt-e7H">
+                                <rect key="frame" x="16" y="159" width="568" height="29"/>
+                                <segments>
+                                    <segment title="0"/>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                    <segment title="3"/>
+                                    <segment title="4"/>
+                                    <segment title="5"/>
+                                    <segment title="6"/>
+                                    <segment title="7"/>
+                                    <segment title="8"/>
+                                    <segment title="9"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segctrlUnitAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="j5b-CL-qFb"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Unités" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bU-dy-mNk">
+                                <rect key="frame" x="16" y="130" width="49" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXD-5i-oiU">
+                                <rect key="frame" x="290" y="195" width="20" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="99" translatesAutoresizingMaskIntoConstraints="NO" id="Xqg-M4-Sl6">
+                                <rect key="frame" x="14" y="224" width="572" height="31"/>
+                                <connections>
+                                    <action selector="sliderBAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="hVl-ey-K6Z"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ns9-fl-MJ7">
+                                <rect key="frame" x="285" y="262" width="30" height="30"/>
+                                <state key="normal" title="RaZ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="razAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tiH-ld-qPk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mode «geek»" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o5d-rW-oOb">
+                                <rect key="frame" x="425" y="33" width="102" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ns9-fl-MJ7" firstAttribute="top" secondItem="Xqg-M4-Sl6" secondAttribute="bottom" constant="8" symbolic="YES" id="47d-bc-5BX"/>
+                            <constraint firstItem="Xqg-M4-Sl6" firstAttribute="leading" secondItem="1OT-dt-e7H" secondAttribute="leading" id="4hf-uf-cQc"/>
+                            <constraint firstItem="UXD-5i-oiU" firstAttribute="top" secondItem="1OT-dt-e7H" secondAttribute="bottom" constant="8" symbolic="YES" id="8hZ-DC-5Od"/>
+                            <constraint firstItem="KLu-J1-StZ" firstAttribute="trailing" secondItem="rdH-3R-vm2" secondAttribute="trailing" id="CWj-Wq-Rg5"/>
+                            <constraint firstItem="1OT-dt-e7H" firstAttribute="top" secondItem="6bU-dy-mNk" secondAttribute="bottom" constant="8" symbolic="YES" id="DoJ-fm-7vk"/>
+                            <constraint firstItem="rdH-3R-vm2" firstAttribute="leading" secondItem="SXc-ub-VGd" secondAttribute="leading" id="HQd-Sv-t7G"/>
+                            <constraint firstItem="6bU-dy-mNk" firstAttribute="leading" secondItem="rdH-3R-vm2" secondAttribute="leading" id="LOb-HV-xT3"/>
+                            <constraint firstItem="1OT-dt-e7H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="LSy-nY-xTo"/>
+                            <constraint firstItem="SXc-ub-VGd" firstAttribute="top" secondItem="dve-iT-BSz" secondAttribute="bottom" constant="8" symbolic="YES" id="Mhm-A1-s3T"/>
+                            <constraint firstItem="Xqg-M4-Sl6" firstAttribute="top" secondItem="UXD-5i-oiU" secondAttribute="bottom" constant="8" symbolic="YES" id="RQX-Dw-sQp"/>
+                            <constraint firstItem="SXc-ub-VGd" firstAttribute="leading" secondItem="dve-iT-BSz" secondAttribute="leading" id="ZBT-ld-9cf"/>
+                            <constraint firstItem="6bU-dy-mNk" firstAttribute="leading" secondItem="1OT-dt-e7H" secondAttribute="leading" id="ZNg-jn-5W5"/>
+                            <constraint firstItem="KLu-J1-StZ" firstAttribute="leading" secondItem="o5d-rW-oOb" secondAttribute="trailing" constant="8" symbolic="YES" id="aoO-kL-frD"/>
+                            <constraint firstItem="KLu-J1-StZ" firstAttribute="top" secondItem="dve-iT-BSz" secondAttribute="top" id="kGg-0V-Td7"/>
+                            <constraint firstItem="o5d-rW-oOb" firstAttribute="centerY" secondItem="KLu-J1-StZ" secondAttribute="centerY" id="kXG-X8-8MS"/>
+                            <constraint firstItem="UXD-5i-oiU" firstAttribute="centerX" secondItem="1OT-dt-e7H" secondAttribute="centerX" id="mlI-LD-BCa"/>
+                            <constraint firstItem="rdH-3R-vm2" firstAttribute="trailing" secondItem="1OT-dt-e7H" secondAttribute="trailing" id="ocZ-8P-vBT"/>
+                            <constraint firstItem="rdH-3R-vm2" firstAttribute="top" secondItem="SXc-ub-VGd" secondAttribute="bottom" constant="8" symbolic="YES" id="pxc-wW-5VE"/>
+                            <constraint firstItem="Xqg-M4-Sl6" firstAttribute="trailing" secondItem="1OT-dt-e7H" secondAttribute="trailing" id="qC5-Ym-1eu"/>
+                            <constraint firstItem="6bU-dy-mNk" firstAttribute="top" secondItem="rdH-3R-vm2" secondAttribute="bottom" constant="8" symbolic="YES" id="rYt-RS-esZ"/>
+                            <constraint firstItem="Xqg-M4-Sl6" firstAttribute="centerX" secondItem="Ns9-fl-MJ7" secondAttribute="centerX" id="vpk-Bm-MiI"/>
+                            <constraint firstItem="dve-iT-BSz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="x9H-qN-4cB"/>
+                            <constraint firstItem="1OT-dt-e7H" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="xnq-sb-Hqe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="UXD-5i-oiU" id="Tl5-A1-RvI"/>
+                        <outlet property="segctrlDiz" destination="rdH-3R-vm2" id="blF-FP-FNX"/>
+                        <outlet property="segctrlUnit" destination="1OT-dt-e7H" id="qzy-hH-AB8"/>
+                        <outlet property="sliderB" destination="Xqg-M4-Sl6" id="b4g-4o-cB5"/>
+                        <outlet property="stepperHG" destination="dve-iT-BSz" id="dT2-fx-4jZ"/>
+                        <outlet property="switchHD" destination="KLu-J1-StZ" id="0eu-ag-GFf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25" y="407"/>
+        </scene>
+    </scenes>
+</document>
